@@ -3,3 +3,30 @@
   Сделан для ознакомительных и учебных целей часть 2
 
 */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background: url("images/header_bgd.jpg") repeat;
+
+}
+#header{
+    width: 100%;
+    height: 136px;
+}
+.logo{
+    height: 41px;
+    width: 369px;
+    margin: 0 auto;
+}
+.logo_image{
+    background: url("images/header_logo.jpg") no-repeat;
+    width: 48px;
+    height: 50px;
+}
+
+
+

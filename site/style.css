@@ -3,6 +3,12 @@
   Сделан для ознакомительных и учебных целей часть 2
 
 */
+/*
+Import fonts
+
+*/
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700);
+
 * {
     margin: 0px;
     padding: 0px;
@@ -27,6 +33,11 @@ body {
     width: 48px;
     height: 50px;
 }
-
+.logo_first{
+    font-family: "Source Sans Pro";
+    font-size: 41px;
+    position: relative;
+    left: 18px;
+}
 
 

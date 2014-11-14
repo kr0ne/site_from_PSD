@@ -14,6 +14,10 @@ Import fonts
     margin: 0px;
     padding: 0px;
 }
+form{
+    padding:0;
+    margin: 0;
+}
 
 body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -36,25 +40,23 @@ body {
 }
 .subscribe_form{
     width: 408px;
-    height: 100%;
+     height: 100%;
     background-color: #faa61a;
     float: right;
+}
+
+.subscribe_email_label{
+    width: 346px;
+    height: 26px;
 }
 .subscribe_input{
     width: 225px;
     margin: 5px 0 0 21px;
 }
-.subscribe_form form{
-    height: 19px;
-}
 
-.subscribe_form label{
-    font-family: 'Carrois Gothic SC', sans-serif;
-    font-size: 14px;
-}
+
 .twitter{
-    background:url("images/twitter.jpg");
-
+    background:url("images/twitter.png");
     width: 18px;
     height: 13px;
 }

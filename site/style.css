@@ -7,6 +7,7 @@
 Import fonts
 
 */
+@import "reset.css";
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700);
 @import url(http://fonts.googleapis.com/css?family=Carrois+Gothic+SC);
 
@@ -38,7 +39,7 @@ body {
     padding-top: 1px;
 }
 .subscribe_form{
-    width: 408px;
+
     background-color: #faa61a;
     float: right;
 }
@@ -52,7 +53,7 @@ body {
     background-color: inherit;
     font-family: 'Carrois Gothic SC', sans-serif;
     font-size: 14px;
-    padding-right: 10px;
+    padding: 0px 10px 0px 8px;
 
 }
 

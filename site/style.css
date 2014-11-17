@@ -124,8 +124,22 @@ body {
 .video_cap{
     background: url("images/video_cap.png") no-repeat;
 }
+.featuard_projects{
+    display: inline-block;
+    background-color: #171511;
+    font-family: CicleFina;
+    font-style: italic;
+    font-size: 28px;
+    color: #ffffff;
+    position: relative;
+    top: 17px;
+    left: -23px;
+    padding: 0 5px;
+}
 .project_preview{
     background-color: #030200;
+    margin-left: 50px;
+
     
 }
 .video_cap_previews{

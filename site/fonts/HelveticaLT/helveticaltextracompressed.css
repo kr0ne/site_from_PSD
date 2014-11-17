@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'HelveticaLTExtraCompressedRegular';
+    src: url('helveticaltextracompressed.eot');
+    src: url('helveticaltextracompressed.eot') format('embedded-opentype'),
+         url('helveticaltextracompressed.woff2') format('woff2'),
+         url('helveticaltextracompressed.woff') format('woff'),
+         url('helveticaltextracompressed.ttf') format('truetype'),
+         url('helveticaltextracompressed.svg#HelveticaLTExtraCompressedRegular') format('svg');
+}

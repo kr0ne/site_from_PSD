@@ -11,6 +11,7 @@ Import fonts
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700);
 @import url(http://fonts.googleapis.com/css?family=Carrois+Gothic+SC);
 @import "fonts/CicleFina/stylesheet.css";
+@import "fonts/HelveticaLT/helveticaltextracompressed.css";
 * {
     margin: 0;
     padding: 0;
@@ -32,6 +33,7 @@ body {
 }
 .header{
     width: 100%;
+    padding-bottom: 46px;
 }
 .top-panel{
     overflow: hidden;
@@ -93,10 +95,45 @@ body {
 }
 .menu{
     display: inline-block;
+    float:right;
+    margin-top: 39px;
+}
+.menu ul {
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
 }
 .menu li{
+    list-style: none; /* Убираем исходные маркеры */
+    background: url(images/list_arrow.png) no-repeat 0 4px; /* Параметры фона */
+    padding: 0 12px 0 18px;
+    float: left;
     font-family: CicleFina;
+    font-size: 14px;
+}
+.main_project{
+    background-color: #faa61a;
+}
+.main_project_name{
+    font-family:HelveticaLTExtraCompressedRegular;
+    font-size: 124px;
+}
+.video_cap{
+    background: url("images/video_cap.png") no-repeat;
+}
+.project_preview{
+    background-color: #030200;
+    
+}
+.video_cap_previews{
+    padding: 307px 0 0 26px ;
+}
+.video_cap_preview{
     display: inline-block;
+    padding-right: 10px;
 }
 
 
